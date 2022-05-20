@@ -14,7 +14,11 @@ stages:
     - build
 
 docker-build:
-  # Use the official docker image.
+
+  # Use this YAML in your workflow file for each job
+  runs-on: self-hosted
+  
+  # Use the official docker image.  
   image: docker:latest
   stage: build
   services:
