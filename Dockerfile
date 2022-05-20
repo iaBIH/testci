@@ -7,4 +7,4 @@ ENV MODULE_NAME="rgapi.server"
 COPY ./ /app
 
 # install poetry
-RUN pip install -r requirements.txt
+#RUN pip install -r requirements.txt
